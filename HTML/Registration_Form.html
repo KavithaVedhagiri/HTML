@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+</head>
+<style>
+h1{text-align: center;}
+</style> 
+<body style="background-color:maroon;">
+<h1>Registration Form </h1>
+<h3>Personal Info : </h3>
+ <div class="container">
+<div style="width: 60%; border: none; padding: 40px;background-color: hsla(0, 0%, 0%, 0.250);color: black;border-: 30px;">
+<form>
+<h4> First Name:&ensp;<input type="text" name="first" placeholder="Enter FirstName" autofocus><br /></h4>
+<h4> Last Name:&ensp;<input type="text" name="last" placeholder="Enter LastName" autofocus><br /></h4>
+<h4> Email:&ensp;<input type="text" name="email"placeholder="Enter Mailid" autofocus><br /></h4>
+<h4> Password:&ensp;<input type="password" name="password" placeholder="Enter Password" autofocus><br /></h4>
+<h4> Mobile Number :&ensp;<input type="text" name="mobile"placeholder="Enter Mobile Number" autofocus><br /></h4>
+<h4> Date of Birth :&ensp;<input type="text" name="mobile"placeholder="Enter mm/dd/yyyy" autofocus><br /></h4>
+<td>
+<label><strong>Gender : </strong></label>
+</td>
+<td>
+<input type="radio" id="male" value="male" name="gender">
+<label for="male">Male</label>
+<input type="radio" id="female" value="female" name="gender">
+<label for="female">Female</label>
+<input type="radio" id="other" value="other" name="gender">
+<label for="other">Others</label>
+</td>
+</form>
+</div>
+<h3>Education Details : </h3>
+ <div class="container">
+<div style="width: 60%; border: none; padding: 40px;background-color: hsla(0, 0%, 0%, 0.250);color: black;border-: 30px;">
+<label><strong>Education Qualification : </strong></label>
+</td>
+<td>
+<input type="checkbox" >
+<label class="container">10<sup>th</sup></label>
+<input type="checkbox" >
+<label class="container">12<sup>th</sup></label>
+<input type="checkbox" >
+<label class="container">UG</label>
+<input type="checkbox" >
+<label class="container">PG</label>
+<h4> Instution Name :&ensp;<input type="text" name="instution"placeholder="Enter Instution Name" autofocus><br /></h4>
+<labelfor="resume"><strong> Resume :</strong</label>
+<input type="file" id="resume">
+</div>
+<h3>Address Details : </h3>
+<div class="container">
+<div style="width: 60%; border: none; padding: 60px;background-color: hsla(0, 0%, 0%, 0.250);color: black;border-: 30px;">
+<table style="width: 100%;">
+<tr>
+<td>
+<label for="area"><h3>Address    : </h3></label>
+</td>
+<td>
+<textarea id="area" cols="60" rows="5"></textarea>
+</td>
+<tr>
+<td>
+<label for="District"><h3>District : </h3></label>
+</td>
+<td>
+  <select id="District">
+  <option value="Chennai"  >Chennai </option>
+  <option value="Coimbatore" >Coimbatore</option>
+  <option value="Madurai">Madurai</option>
+  <option value="Tiruchirapalli">Tiruchirapalli</option>
+  <option value="Tiruppur">Tiruppur</option>
+  <option value="Salem">Salem</option>
+  <option value="Erode">Erode</option>
+  <option value="Tirunelveli">Tirunelveli</option>
+</select>
+</td>
+<tr>
+<td>
+<label for="pin"><h3>Pincode : </h3></label>
+</td>
+<td>
+<input type="text" id="pin" placeholder="Enter Pincode">
+</td>
+</tr>
+</table>
+  <input type="submit" value="Submit"> <input type="reset" value="Cancel">
+
+</body>
+</html>
